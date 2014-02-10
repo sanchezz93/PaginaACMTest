@@ -17,8 +17,9 @@ body {
 }
 
 .headline > .container > h1 {
-	font-size: 130px;
+	font-size: 110px;
 	color: white;
+	padding: 10px;
 	background: rgba(0, 0, 0, 0.5);
 
 }
