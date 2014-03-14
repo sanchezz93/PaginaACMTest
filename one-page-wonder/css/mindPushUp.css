@@ -1,7 +1,10 @@
 body {
 	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 }
-.header-mindP {
+
+.header-image {
+	/*background: url(http://i.imgur.com/IEyibwl.jpg); repeat; 
+	Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
 	background: url(http://i.imgur.com/wIACOGU.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -26,14 +29,31 @@ body {
 
 }
 
-.featurette-divider {
-	margin: 40px 0;
+.headline > .container > h2 {
+	font-size: 77px;
+	background: rgba(0, 0, 0, 0.5);
 }
-.featurette-divider > p{
-	font-size: 15px;
-	font-family: 'Roboto Slab', sans-serif;
-	color: black;
-	padding: 10px;
+
+.featurette-divider {
+	margin: 80px 0;
+}
+.featurette {
+	overflow: hidden; 
+}
+
+.featurette-image.pull-left {
+	margin-right: 40px;
+}
+.featurette-image.pull-right {
+	margin-left: 40px;
+}
+
+.featurette-heading {
+	font-size: 50px;
+}
+
+footer {
+	margin: 50px 0;
 }
 
 /* RESPONSIVE CSS */
@@ -41,6 +61,7 @@ body {
 @media (max-width: 1200px) {
 
 .headline > .container > h1 {font-size: 140px;}
+.headline > .container > h2 {font-size: 63px;}
 .featurette-divider {margin: 50px 0;}
 .featurette-image.pull-left {margin-right: 20px;}
 .featurette-image.pull-right {margin-left: 20px;}
